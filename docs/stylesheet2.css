@@ -1,24 +1,28 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, rgb(126, 197, 255), rgb(14, 139, 255));
+    background-color: rgb(77, 77, 77);
 }
-
 .title {
     margin: 0;
-    background-color:rgb(47, 136, 209);
-    color:black;
+    background-color: rgb(37, 184, 49);
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+	font-size: 47px;
+	-webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 5px 2px 4px rgb(0, 0, 0);
 }
 
 section {
     margin-top: 30px;
     margin-left: 150px;
     margin-right: 150px;
+    background-color: rgb(37, 184, 49);
     text-align: center;
-    background-color: rgb(72, 163, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 23px;
+	-webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 5px 2px 4px rgb(0, 0, 0);
 }
 
 p {
@@ -32,19 +36,17 @@ input {
 
 input[type=submit] {
     padding:5px 15px; 
-    background:white; 
+    background:rgb(0, 110, 0); 
     cursor:pointer;
     border: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input[type=submit]:hover {
-    background: dodgerblue;
+    background: rgb(77, 77, 77);
 }
 
 footer {
     margin-top: 100px;
     text-align: center;
-    background-color: rgb(72, 163, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(37, 184, 49);
 }
